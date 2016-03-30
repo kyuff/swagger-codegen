@@ -427,6 +427,18 @@
             </modules>
         </profile>
         <profile>
+            <id>jaxrs2-server</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>java</value>
+                </property>
+            </activation>
+            <modules>
+                <module>samples/server/petstore/jaxrs2</module>
+            </modules>
+        </profile>
+        <profile>
             <id>jaxrs-server</id>
             <activation>
                 <property>
